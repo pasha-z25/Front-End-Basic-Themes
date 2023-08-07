@@ -1,1 +1,3 @@
-# Front-End-Basic-Themes
+# Front End Basic
+
+Програма курсу

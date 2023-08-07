@@ -1,0 +1,21 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+.link {
+  cursor: pointer;
+  color: #2b8dc7;
+}
+
+.table th,
+.table td {
+  border: 1px solid;
+  padding: 0.25rem 0.5rem;
+}
+
+.table .row *:first-child {
+  width: 100px;
+}
+.table .row > *:not(:first-child) {
+  min-width: 300px;
+}

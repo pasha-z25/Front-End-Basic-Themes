@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Front End Basic - Програма курсу</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+  </head>
+
+  <body class="flex flex-col min-h-screen">
+    <header class="py-4">
+      <div class="container mx-auto px-2 relative">
+        <h1 class="text-3xl font-bold text-blue text-center">
+          Front End Basic. Програма курсу
+        </h1>
+      </div>
+    </header>
+    <main class="flex-1">
+      <section class="py-4">
+        <div class="container mx-auto px-2 relative">
+          <h2 class="text-2xl font-bold mb-4">Теми занять:</h2>
+          <table class="table border w-full text-center">
+            <thead>
+              <tr class="row">
+                <th class="w-2xl">№ заняття</th>
+                <th>Теми які проходимо</th>
+                <th>Домашнє завдання</th>
+                <th>Коментарі</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row">
+                <td>1</td>
+                <td>
+                  Знайомство та план курсу. Теги, атрибути тегів. Структура
+                  HTML-документа. Розмітка тексту за допомогою HTML.
+                  Теги-орієнтири (header, main, aside, nav, section, article).
+                  Посилання. Списки.
+                </td>
+                <td>Створити своє резюме</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>2</td>
+                <td>
+                  Відносні та абсолютні шляхи. Типи файлів. Медіа (video,
+                  audio). Iframe.
+                </td>
+                <td>Сайт "Про себе".</td>
+                <td>ДЗ: Сайт на декілька сторінок про свого куміра</td>
+              </tr>
+              <tr class="row">
+                <td>3</td>
+                <td>
+                  Git. Github. Форматування коду. Emmet. Валідація HTML.
+                  Встановлення плагінів (Prettier, HTMLHint та W3C Web
+                  Validator)
+                </td>
+                <td>Git. Github.</td>
+                <td>
+                  Починаючи з цього заняття всі домашки здаються через Github (в
+                  одному репозиторії, але окремі гілки для кожної домашки).
+                  Обов'язковою стає перевірка валідатором домашки перед здачею.
+                </td>
+              </tr>
+              <tr class="row">
+                <td>4</td>
+                <td>
+                  Знайомство з CSS. Підключення CSS. Каскадність. Спадкування.
+                  Селектори. Специфічність.
+                </td>
+                <td>Селектори. Специфіка.</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>5</td>
+                <td>
+                  Рідні стилі. Normalize.css Reset.css. Блочна модель.
+                  Box-sizing. Шрифти. Стилізація тексту. Float. Float layout.
+                  Clearfix.
+                </td>
+                <td>
+                  Дві ДЗ окремо: Картки та Флоати. (<a
+                    class="link"
+                    href="https://www.figma.com/file/mzZfiiikWg9aJX23wgioff/Float"
+                    >Макет флотів з квадратими</a
+                  >)
+                </td>
+                <td>
+                  Починаючи з цього заняття заборонено використовувати посилання
+                  на Google Fonts (Тільки конвертація у woff та woff2 і
+                  підключення локально)
+                </td>
+              </tr>
+              <tr class="row">
+                <td>6</td>
+                <td>Форми</td>
+                <td>Форми. Автомагазин.</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>7</td>
+                <td>
+                  Таблиці. Верстаємо перший макет на занятті
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/Mcf2QT1891XdEHWUUa4EPf/Wisdom"
+                    >Wisdom</a
+                  >
+                </td>
+                <td>Зробити невеликий календар</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>8</td>
+                <td>
+                  Зображення. Формати зображень. Адаптивна графіка. Тег picture.
+                  Оптимізація графіки.
+                </td>
+                <td>
+                  Зробити макет
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/xPGu8wflEknZhicedI4GWp/Simple-Site"
+                    >Simple Site</a
+                  >
+                </td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>9</td>
+                <td>Position. Псевдокласи. Псевдоелементи.</td>
+                <td>Многорівневе меню</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>10</td>
+                <td>Flexbox. Flexbox layout.</td>
+                <td>Flexbox: пройти 24 рівня.</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>11</td>
+                <td>Практичне заняття по Flexbox</td>
+                <td>
+                  Зробити реальную сторінку по макету (один з макетів на вибір:
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/bmIZqESfgjowmhgSTD2vOl/Skinn"
+                    >Skinn</a
+                  >,
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/w6EVOwAat2zpFDR1vwsiVo/Moxa"
+                    >Moxa</a
+                  >,
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/2leFIUBXHAdSccHhRCPQH1/Affiliate"
+                    >Affiliate</a
+                  >
+                  )
+                </td>
+                <td>
+                  Верстаємо на занятті макет
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/bdW1FvbrBu77mc7sZIzlmD/Beauty"
+                    >Beauty</a
+                  >
+                </td>
+              </tr>
+              <tr class="row">
+                <td>12</td>
+                <td>CSS Grid. Grid layout.</td>
+                <td>Grid 28 рівнів.</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>13</td>
+                <td>SVG. SVG Спрайти. Іконочні шрифти.</td>
+                <td>-</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>14</td>
+                <td>
+                  Адаптивна верстка. Знайомство з концепцією Responsive Web
+                  Design. Viewport. @media. Одиниці вимірювання vh, vw, vmin,
+                  vmax, rem. Mobile-first/Desktop-first.
+                </td>
+                <td>Робимо сторінку з адаптивом</td>
+                <td>
+                  Починаючи з цього заняття всі домашки вже взяті з фінального
+                  макету
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/DQNsry7hJixI0IxxkcBcEP/hlegal-2.1-PUBLIC"
+                    >HLegal</a
+                  >
+                </td>
+              </tr>
+              <tr class="row">
+                <td>15</td>
+                <td>CSS анімації. Transition. Filter. Transform. Animation.</td>
+                <td>-</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>16</td>
+                <td>
+                  Що таке DOM? або Об'єктна модель документу. Jquery. Популярні
+                  слайдери та інші бібліотеки.
+                </td>
+                <td>Робимо наступну сторінку з фінального макету</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>17</td>
+                <td>CSS препроцесори. CSS фреймворки. CSS методології.</td>
+                <td>-</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>18</td>
+                <td>
+                  Семантична розмітка. Доступність інтерфейсів користувача
+                  (a11y). Оптимізація сторінки.
+                </td>
+                <td>
+                  Фінальна робота. Макет
+                  <a
+                    class="link"
+                    href="https://www.figma.com/file/DQNsry7hJixI0IxxkcBcEP/hlegal-2.1-PUBLIC"
+                    >HLegal</a
+                  >
+                </td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>19</td>
+                <td>Gulp. Збираємо проект</td>
+                <td>-</td>
+                <td></td>
+              </tr>
+              <tr class="row">
+                <td>20</td>
+                <td>Фінальне заняття. Розбір макету.</td>
+                <td>-</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="py-4">
+      <div class="container mx-auto px-2 relative"></div>
+    </footer>
+  </body>
+</html>
